@@ -3,7 +3,7 @@ This Kata prepares you for the [Craftsmen-Coding-Contest](/lomin/ccc-kata/wiki).
 1. listens on a port for a message containing a simple mathematical task
 2. calculates the result
 3. sends the result back to the server
-4. repeats until message is "__SHUTDOWN__"
+4. repeats until message is `__SHUTDOWN__`
 
 The content of the messages are strings with the following structure:
 
@@ -13,9 +13,9 @@ where `<function>` is one of `ADD`, `MULTIPLY`, `SUBTRACT`. Parameters are integ
 
 Example server messages are:
 
-`ADD:4160806a2f2846759d6c7e764f4bcbd5:184:106:107`
-`SUBTRACT:45429b851ac549fc9e2e38f9ee289061:27:107:91:55`
-`MULTIPLY:6868c974bf7140eabb18b826bedacd54:175:126:172:119`
+1. `ADD:4160806a2f2846759d6c7e764f4bcbd5:184:106:107`
+2. `SUBTRACT:45429b851ac549fc9e2e38f9ee289061:27:107:91:55`
+3. `MULTIPLY:6868c974bf7140eabb18b826bedacd54:175:126:172:119`
 
 The structure of the expected response are:
 
@@ -23,9 +23,9 @@ The structure of the expected response are:
 
 The correct responses for the example server messages are respectively:
 
-`4160806a2f2846759d6c7e764f4bcbd5:397`
-`45429b851ac549fc9e2e38f9ee289061:-226`
-`6868c974bf7140eabb18b826bedacd54:451319400`
+1. `4160806a2f2846759d6c7e764f4bcbd5:397`
+2. `45429b851ac549fc9e2e38f9ee289061:-226`
+3. `6868c974bf7140eabb18b826bedacd54:451319400`
 
 All communication happens through UDP.
 
