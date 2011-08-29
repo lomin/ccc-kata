@@ -1,4 +1,4 @@
-This Kata prepares you for the [Craftsmen-Coding-Contest](/lomin/ccc_kata/wiki). Your task is to implement a program, that
+This Kata prepares you for the [Craftsmen-Coding-Contest](/lomin/ccc-kata/wiki). Your task is to implement a program, that
 
 1. listens on a port for a message containing a simple mathematical task
 2. calculates the result
