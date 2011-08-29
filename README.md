@@ -7,25 +7,25 @@ This Kata prepares you for the Craftsmen-Coding-Contest. Your task is to impleme
 
 The content of the messages are strings with the following structure:
 
-<function>:<uuid>:<parameter>:<parameter>[:<parameter>]*
+@<function>:<uuid>:<parameter>:<parameter>[:<parameter>]*@
 
-where <function> is one of {"ADD", "MULTIPLY", "SUBTRACT"}. Parameters are integers. There are at least two parameters, but there can be more.
+where @<function>@ is one of @ADD@, @MULTIPLY@, @SUBTRACT@. Parameters are integers. There are at least two parameters, but there can be more.
 
 Example server messages are:
 
-"ADD:4160806a2f2846759d6c7e764f4bcbd5:184:106:107"
-"SUBTRACT:45429b851ac549fc9e2e38f9ee289061:27:107:91:55"
-"MULTIPLY:6868c974bf7140eabb18b826bedacd54:175:126:172:119"
+@ADD:4160806a2f2846759d6c7e764f4bcbd5:184:106:107@
+@SUBTRACT:45429b851ac549fc9e2e38f9ee289061:27:107:91:55@
+@MULTIPLY:6868c974bf7140eabb18b826bedacd54:175:126:172:119@
 
 The structure of the expected response are:
 
-<uuid>:<result>
+@<uuid>:<result>@
 
 The correct responses for the example server messages are respectively:
 
-"4160806a2f2846759d6c7e764f4bcbd5:397"
-"45429b851ac549fc9e2e38f9ee289061:-226"
-"6868c974bf7140eabb18b826bedacd54:451319400"
+@4160806a2f2846759d6c7e764f4bcbd5:397@
+@45429b851ac549fc9e2e38f9ee289061:-226@
+@6868c974bf7140eabb18b826bedacd54:451319400@
 
 All communication happens through UDP.
 
