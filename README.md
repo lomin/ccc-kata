@@ -29,7 +29,7 @@ The correct responses for the example server messages are respectively:
 
 All communication happens through UDP.
 
-To verify your program, start it and then start the python script ccc_kata_test.py. The script expects two command line arguments, which define
+To verify your program, start it and then start the script ccc_kata_test.py with Python 2.7 or 2.6. The script expects two command line arguments, which define
 
 1. the client port. This is the port your program should listen to for new messages. 
 2. the server port. This is the port on which the test_server listens for responses.
