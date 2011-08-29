@@ -29,7 +29,10 @@ The correct responses for the example server messages are respectively:
 
 All communication happens through UDP.
 
-To verify your program, start it and then start the python script ccc_kata_test.py. The script expects two command line arguments, which define the client port and the server port. The client port is the port your program listens to for new messages. The server port is the port on which the script listens for responses.
+To verify your program, start it and then start the python script ccc_kata_test.py. The script expects two command line arguments, which define
+
+1. the client port. This is the port your program should listen to for new messages. 
+2. the server port. This is the port on which the test_server listens for responses.
 
 This is how you start the script with port 9000 as client port and port 9001 as server port:
 
@@ -39,4 +42,4 @@ python ccc_kata_test.py 9000 9001
 
 The script will send three messages. If all messages are answered correctly, it will print "successful!", otherwise "unsuccessful!".
 
-The goals of the Kata are to make you comfortable with the socket interface of your chosen language and the structure of a text-based protocol, which is similiar to the protocol used in the Craftsmen-Coding-Contest.
+The goals of the Kata are to make you comfortable with the socket interface of your chosen language and the structure of a text-based protocol similiar to the protocol used in the Craftsmen-Coding-Contest.
