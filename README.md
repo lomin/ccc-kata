@@ -1,4 +1,4 @@
-This Kata prepares you for the [Craftsmen-Coding-Contest](/lomin/ccc-kata/wiki). See the [rules](/lomin/ccc-kata/wiki/Rules) and [Documentation](/lomin/ccc-kata/wiki/documentation) for further information about the contest.
+This Kata prepares you for the [Craftsmen-Coding-Contest](/lomin/ccc-kata/wiki). See the [rules](/lomin/ccc-kata/wiki/Rules) and [documentation](/lomin/ccc-kata/wiki/documentation) for further information about the contest.
 
 To complete this Kata, your task is to implement a program that
 
